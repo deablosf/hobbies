@@ -20,13 +20,13 @@
 }
 
 .hobbies {
-  width: 350px;
+  width: 30vw;
 }
 
 .images {
   border: solid blue;
   height: 400px;
-  width: 300px;
+  width: 30vw;
 }
 
 #img1 {
@@ -40,6 +40,6 @@
 }
 
 #img3 {
-  background-image: url(./assets/entertainment.png);
+  background-image: url(./assets/entertainment.jpeg);
   background-size: 100% 100%;
 }
