@@ -1,5 +1,45 @@
 .App {
   height: 150vh;
-  width: 100vw;
-  align-items: center;
+  width: 98vw;
+  background-color: cornsilk;
+  background-size: 100% 100%;
+  margin: 0vh;
+  border: 0px;
+}
+
+.main {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.title {
+  font-size: 20px;
+  font-weight: bold;
+
+}
+
+.hobbies {
+  width: 350px;
+}
+
+.images {
+  border: solid blue;
+  height: 400px;
+  width: 300px;
+}
+
+#img1 {
+  background-image: url(./assets/dreamer.jpg);
+  background-size: 100% 100%;
+}
+
+#img2 {
+  background-image: url(./assets/Musical.png);
+  background-size: 100% 100%;
+}
+
+#img3 {
+  background-image: url(./assets/entertainment.png);
+  background-size: 100% 100%;
 }

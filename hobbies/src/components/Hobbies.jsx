@@ -32,16 +32,25 @@ class Hobbies extends Component {
         let colosseum = this.state.partsOfMe[2];
         return (
             <div className="main">
+                
                 <div id="dreaming" className="hobbies">
                     <div className="title"> {dreaming.hobbies} </div>
+                    <div id="img1" className="images"></div>
+                    <div className="description"> {dreaming.description} </div>
 
                 </div>
+                
                 <div id="musical" className="hobbies">
-                <div className="title"> {muzac.hobbies} </div>
+                    <div className="title"> {muzac.hobbies} </div>
+                    <div id="img2" className="images"></div>
+                    <div className="description"> {muzac.description} </div>
 
                 </div>
+                
                 <div id="colosseum" className="hobbies">
-                <div className="title"> {colosseum.hobbies} </div>
+                    <div className="title"> {colosseum.hobbies} </div>
+                    <div id="img3" className="images"></div>
+                    <div className="description"> {colosseum.description} </div>
 
                 </div>
             </div>
