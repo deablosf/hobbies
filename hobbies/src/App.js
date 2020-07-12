@@ -6,7 +6,8 @@ import Hobbies from './components/Hobbies'
 function App() {
   return (
     <div className="App">
-      
+      <h1>Sam's Hobbies</h1>
+      <Hobbies />
     </div>
   );
 }
