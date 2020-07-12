@@ -26,6 +26,7 @@ class Hobbies extends Component {
         }
         
     }
+
     render() {
         let dreaming = this.state.partsOfMe[0];
         let muzac = this.state.partsOfMe[1];
@@ -35,22 +36,24 @@ class Hobbies extends Component {
                 
                 <div id="dreaming" className="hobbies">
                     <div className="title"> {dreaming.hobbies} </div>
+                    
+                    <div className="description"> <p>Arthur William Edgar O'Shaughnessy - </p> <p>'We are the music-makers, And we are the dreamers of dreams, Wandering by lone sea-breakers, And sitting by desolate streams; World-losers and world-forsakers, On whom the pale moon gleams: Yet we are the movers and shakers Of the world for ever, it seems. With wonderful deathless ditties We build up the world's great cities, And out of a fabulous story We fashion an empire's glory: One man with a dream, at pleasure, Shall go forth and conquer a crown; And three with a new song's measure Can trample an empire down. We, in the ages lying In the buried past of the earth, Built Nineveh with our sighing, And Babel itself with our mirth; And o'erthrew them with prophesying To the old of the new world's worth; For each age is a dream that is dying, Or one that is coming to birth.'</p> </div>
                     <div id="img1" className="images"></div>
-                    <div className="description"> <p>A poem by Arthur William Edgar O'Shaughnessy</p> <p>'We are the music-makers, And we are the dreamers of dreams, Wandering by lone sea-breakers, And sitting by desolate streams; World-losers and world-forsakers, On whom the pale moon gleams: Yet we are the movers and shakers Of the world for ever, it seems. With wonderful deathless ditties We build up the world's great cities, And out of a fabulous story We fashion an empire's glory: One man with a dream, at pleasure, Shall go forth and conquer a crown; And three with a new song's measure Can trample an empire down. We, in the ages lying In the buried past of the earth, Built Nineveh with our sighing, And Babel itself with our mirth; And o'erthrew them with prophesying To the old of the new world's worth; For each age is a dream that is dying, Or one that is coming to birth.' "</p> </div>
-
                 </div>
                 
                 <div id="musical" className="hobbies">
                     <div className="title"> {muzac.hobbies} </div>
-                    <div id="img2" className="images"></div>
+                    
                     <div className="description"> {muzac.description} </div>
+                    <div id="img2" className="images"></div>
 
                 </div>
                 
                 <div id="colosseum" className="hobbies">
                     <div className="title"> {colosseum.hobbies} </div>
-                    <div id="img3" className="images"></div>
+                    
                     <div className="description"> {colosseum.description} </div>
+                    <div id="img3" className="images"></div>
 
                 </div>
             </div>
